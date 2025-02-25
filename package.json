@@ -1,12 +1,23 @@
 {
-  "name": "test",
+  "name": "reviews-for-the-store",
   "version": "1.0.0",
+  "description": "Общее описание задачи, где раскрыта тема текущего дня. Задача может быть оформлена в виде истории, в контексте которой применяются технологии обсуждаемые на лекции. Для раскрытия темы задачи можно использовать пример кода, который будет использовться как аналогия.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/part-time-javascript-elbrus-bootcamp/reviews-for-the-store.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/part-time-javascript-elbrus-bootcamp/reviews-for-the-store/issues"
+  },
+  "homepage": "https://github.com/part-time-javascript-elbrus-bootcamp/reviews-for-the-store#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
