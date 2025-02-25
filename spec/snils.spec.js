@@ -4,7 +4,7 @@ const {
     grabAllSNILS,
     hideAllSNILS,
     formatSNILS
-} = require("../../elbrus/1 фаза/2/core-regular-expressions/snils");
+} = require("../index");
 
 describe("hasSNILS", () => {
     it("returns true if it finds a SNILS", () => {
