@@ -9,10 +9,19 @@ function grabSNILS(str){
     return mathes ? mathes[0] : null
 }
 
+function grabAllSNILS(str){
+    const mathes = str.match(/(\d{3})-(\d{3})-(\d{3}) (\d{2})/g)
+    return mathes 
+}
+
+function hideAllSNILS(str){
+    return str.replace(/(\d{3})-(\d{3})-(\d{3}) (\d{2})/g, 'XXX-XXX-XXX $4')
+}
+
 module.exports = {
     hasSNILS,
     grabSNILS,
-    // grabAllSNILS,
-    // hideAllSNILS,
+    grabAllSNILS,
+    hideAllSNILS,
     // formatSNILS
 };
