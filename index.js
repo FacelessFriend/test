@@ -15,7 +15,7 @@ function grabAllSNILS(str){
 }
 
 function hideAllSNILS(str){
-    return str.replace(/(\d{3})-(\d{3})-(\d{3}) (\d{2})/g, 'XXX-XXX-XXX $4')
+    return str.replace(/(\d{3})-(\d{3})-(\d{3})/g, 'XXX-XXX-XXX')
 }
 
 module.exports = {
