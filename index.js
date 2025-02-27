@@ -18,6 +18,8 @@ function hideAllSNILS(str){
     return str.replace(/(\d{3})-(\d{3})-(\d{3})/g, 'XXX-XXX-XXX')
 }
 
+
+
 module.exports = {
     hasSNILS,
     grabSNILS,
